@@ -3,7 +3,7 @@ const app = express();
 const mongoose = require('mongoose');
 const bodyParser = require('body-parser');
 
-const port = process.env.PORT || 443
+const port = process.env.PORT || 3000
 
 const url = 'mongodb+srv://leandrosuy:leandrosuy@filmes.ye0cy.mongodb.net/Filmes?retryWrites=true&w=majority';
 const options = { useNewUrlParser: true, useUnifiedTopology: true };
